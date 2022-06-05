@@ -3,6 +3,7 @@ package training;
 public class A {
 	public static void main(String[] args) {
 		
+		Human h1;
 		int i = 12;
 //		int j = 10;
 		

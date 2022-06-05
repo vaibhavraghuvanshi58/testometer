@@ -1,23 +1,31 @@
 package datatype;
 
+import training.Human;
+
 public class SwapCode {
-public static void main(String[] args) {
+	public static void main(String[] args) {
+		
+		//swap(10, 20);
+	int k = add(9,3);
+	System.out.println(k);
+	}
 	
 	
-	int i = 12;
-	int j = 14;
-	// swap the values  , i = 14, j = 12
- 	// i = 12, j = 14
-	i = i + j; 
-	// i = 26, j = 14
-	j = i - j;
-	// i = 26, j = 12;
-	i = i - j ;
-	// i = 14, j = 12
+	static void swap(int i, int j){
+		i = i + j; 
+		j = i - j;
+		i = i - j ;
+		System.out.println(i);
+		System.out.println(j);
+		
+		
+	}
 	
-	System.out.println(i);
- 	System.out.println(j);
- 	
- 	
-}
+	static int add(int i, int j){
+		int k = i +j;
+		return k;
+	}
+
+	
+	// variables - instance, static, heap 
 }
