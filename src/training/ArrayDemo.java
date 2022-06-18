@@ -39,6 +39,8 @@ public class ArrayDemo {
 		
 		// 60Dimension
 		
+		// String concept - array of characters
+		
 		
 	}
 }
