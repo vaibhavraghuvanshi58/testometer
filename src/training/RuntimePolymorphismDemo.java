@@ -17,7 +17,10 @@ public class RuntimePolymorphismDemo {
 
 
  abstract class Bank{
-	public abstract void interest();
+	Bank(){
+		
+	}
+	 public abstract void interest();
 	
 	public void home_loan() {
 		System.out.println("home loan");
@@ -27,10 +30,19 @@ public class RuntimePolymorphismDemo {
 
 
 class HDFC extends Bank{
+	
+	HDFC(){
+		
+	}
+	
 	public void interest() {
 		System.out.println("5.6");
 	}
 }
+
+
+
+
 
 class ICICI extends Bank{
 	public void interest() {
